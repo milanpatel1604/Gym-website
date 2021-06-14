@@ -1,0 +1,31 @@
+extends base.pug
+
+block head-content
+    link(rel="stylesheet" type="text/css" href="../static/CSS/index.css")
+
+block content
+    #box-1
+        p DON'T COMPLAIN ENJOY THE PAIN
+        h2
+            a(href='/joinnow') Join the Best Gym in Rajkot
+    #box-2
+        p Special features
+        #box-2-logos
+            .card-1
+                img(src='../static/Images/box-2(1).png' alt='Events')
+                span Events
+            .card-1
+                img(src='../static/Images/box-2(2).png' alt='Flexible-Timings')
+                span Flexible-Timings
+            .card-1
+                img(src='../static/Images/box-2(3).png' alt='Available')
+                span Instruments
+            .card-1
+                img(src='../static/Images/box-2(4).png' alt='Protines provided')
+                span Protines provided
+            .card-1
+                img(src='../static/Images/box-2(5).png' alt='Referral-discounts')
+                span Referral-discounts        
+
+    block javascript-content
+        

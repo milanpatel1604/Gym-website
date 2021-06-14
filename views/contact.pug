@@ -1,0 +1,16 @@
+extends base.pug
+
+block head-content
+    link(rel="stylesheet" type="text/css" href="../static/CSS/contact.css")
+
+block content 
+    .contact-box-1
+        span CONTACT US
+        form(action='/contact', method="post", class="myForm")
+            label(for='fullname') Full Name:
+            input#fullname.input-box(type='text' name='fullname' placeholder='Enter your Full Name')
+            label(for='email') Email:
+            input#email.input-box(type='email' name='email' placeholder='Enter your Email')
+            label(for='textarea') Message:
+            input#textarea.input-box(type='text' name='textarea' placeholder='Write a message')
+            input#submit-btn(type='submit' value='submit')

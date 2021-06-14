@@ -1,0 +1,74 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+/* Header desigining */
+#navbar{
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(36, 35, 35);
+    border-bottom: 2px solid orange;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#main-logo{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#main-logo img{
+    width: 10rem;
+}
+#main-logo h1{
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 2.13rem 2rem;
+    font-size: 1.6rem;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#navbar ul li a:hover{
+    background-color: orange;
+}
+
+/* footer desigining */
+#footer{
+    background-color: orange;
+    border-top: .2rem solid rgb(36, 35, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer p{
+    font-family:Arial, Helvetica, sans-serif;
+    border-right: 2px solid rgb(36, 35, 35);
+    line-height: 3rem;
+    padding-right: 2rem;
+    font-size: 1.3rem;
+}
+#footer p a{
+    text-decoration: none;
+    color: rgb(66, 64, 64);
+}
+.social-media-icons{
+    width: 3rem;
+    margin: .7rem;
+}
